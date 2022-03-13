@@ -12,7 +12,7 @@ float cal_volume(float r){
 }
 int main(){
 	
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese_Brazil");
 
 	printf("Programa que calcula o volume do raio de uma esfera.\n\n");
 	
@@ -24,7 +24,7 @@ int main(){
     resultado = cal_volume(Y);
     
 
-    printf("\n O volume da esfera é: %.2f é: %.2f\n", Y, resultado);
+    printf("\n O volume da esfera Ã©: %.2f Ã©: %.2f\n", Y, resultado);
 
    system("Pause");   
    
