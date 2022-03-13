@@ -13,7 +13,7 @@ float recebe(float base, int exp){
 
 int main(){
 	
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese_Brazil");
 
     printf("Progama que calcula a base elevada ao expoente. \n\n");
     
@@ -29,5 +29,5 @@ int main(){
     resultado_final = recebe(base, expoente);
     
     printf("________________________________________________\n");
-    printf("\nO resultado final é: %.1f", resultado_final);
+    printf("\nO resultado final Ã©: %.1f", resultado_final);
 }
